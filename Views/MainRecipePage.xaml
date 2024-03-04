@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyPages1.Views.MainRecipePage"
+             Title="Simple Salsa and Chips!">
+    <VerticalStackLayout Spacing="5">
+        <Label 
+            Text="Welcome to My Recipes!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button x:Name="BtnSalsa"
+                Clicked="BtnSalsa_Clicked"
+                Text="Salsa Recipe" />
+
+        <Button x:Name="BtnChips"
+                Clicked="BtnChips_Clicked"
+                Text="Chips Recipe" />
+        
+       
+
+    </VerticalStackLayout>
+</ContentPage>

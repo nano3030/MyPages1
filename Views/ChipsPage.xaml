@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyPages1.Views.ChipsPage"
+             Title="Chips Page">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70" />
+            <RowDefinition Height="55" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="55" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="70" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Image x:Name="ImgChips"
+           BackgroundColor="White"
+           HorizontalOptions="Center"
+           WidthRequest="50"
+           HeightRequest="50"
+           Source="salsachip.png"
+           Grid.Row="0"
+           Grid.Column="0" />
+
+        <Label x:Name="LblHeading"
+           Text="Simple Chips"
+           FontSize="Large"
+           Grid.Row="0"
+           Grid.Column="1"
+           VerticalOptions="Center"
+           HorizontalOptions="Center" />
+
+        <Label x:Name="LblSubHeading"
+           Grid.ColumnSpan="2"
+           Text="Ingredients:"
+           FontSize="35"
+           Grid.Row="1"
+           Grid.Column="0" />
+
+        <Label x:Name="LblItem1"
+           Text="1 Bag Fajita sized flour tortilla chips"
+           FontSize="Medium"
+           Grid.Row="2"
+           Grid.Column="1" />
+        <Label x:Name="LblItem2"
+           Text="Olive Oil"
+           FontSize="Medium"
+           Grid.Row="3"
+           Grid.Column="1" />
+        <Label x:Name="LblItem3"
+           Text="Seasoning Coarse Salt"
+           FontSize="Medium"
+           Grid.Row="4"
+           Grid.Column="1" />
+
+
+        <Label x:Name="LblPrep"
+           Text="Preperation"
+           FontSize="35"
+           Grid.Row="5"
+           Grid.Column="0" 
+           Grid.ColumnSpan="2"/>
+
+        <Label x:Name="LblDirections1"
+           Text="Preheat oven to 325"
+           FontSize="Medium"
+           Grid.Row="6"
+           Grid.Column="1" />
+        <Label x:Name="LblDir2"
+           Text="Cut Fajitas into 6 pie shaped pieces"
+           FontSize="Medium"
+           Grid.Row="7"
+           Grid.Column="1" />
+        
+        <Label x:Name="LblDir3"
+           Text="Lay Peices on baking sheet and brush with olive oil"
+           FontSize="Medium"
+           Grid.Row="8"
+           Grid.Column="1" />
+
+        <Label x:Name="LblDir4"
+           Text="Place in oven for 7 minutes or until lightly brown"
+           FontSize="Medium"
+           Grid.Row="9"
+           Grid.Column="1" />
+
+        <Button x:Name="BtnMainRecipePage"
+                Clicked="BtnMainRecipePage_Clicked"
+                Text="Home" 
+                Grid.Row="10"
+                Grid.Column="0"/>
+
+
+    </Grid>
+
+
+</ContentPage>
