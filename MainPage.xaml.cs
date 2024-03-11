@@ -1,4 +1,4 @@
-﻿namespace MyPages1
+﻿namespace SalsaRecipe
 {
     public partial class MainPage : ContentPage
     {
