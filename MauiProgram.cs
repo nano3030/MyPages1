@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace MyPages1
+namespace SalsaRecepie
 {
     public static class MauiProgram
     {
